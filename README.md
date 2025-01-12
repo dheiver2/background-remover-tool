@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Removedor de Fundo de Imagens
 
-## Getting Started
+Este é um projeto [Next.js](https://nextjs.org/) criado com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-First, run the development server:
+## Começando
+
+Primeiro, execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Você pode começar a editar a página modificando o arquivo `app/page.tsx`. A página será atualizada automaticamente conforme você edita o arquivo.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Este projeto utiliza [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) para otimizar e carregar automaticamente a fonte Inter, uma fonte personalizada do Google.
 
-## Learn More
+## Sobre o Projeto
 
-To learn more about Next.js, take a look at the following resources:
+Este projeto é uma ferramenta online para remover o fundo de imagens de forma rápida e precisa. Ele utiliza tecnologias modernas como Next.js, Chakra UI e bibliotecas de processamento de imagens para oferecer uma experiência de usuário fluida e eficiente.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Funcionalidades Principais
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Remoção Automática de Fundo**: Basta fazer upload de uma imagem e o fundo será removido automaticamente.
+- **Interface Amigável**: Design moderno e responsivo, fácil de usar em qualquer dispositivo.
+- **Processamento Rápido**: Resultados em segundos, sem necessidade de configurações complexas.
 
-## Deploy on Vercel
+## Como Contribuir
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contribuições são bem-vindas! Se você quiser contribuir para este projeto, siga os passos abaixo:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Faça um **fork** do repositório.
+2. Crie uma nova branch com sua feature ou correção:
+   ```bash
+   git checkout -b minha-feature
+   ```
+3. Faça commit das suas alterações:
+   ```bash
+   git commit -m 'Adicionando nova feature'
+   ```
+4. Envie as alterações para o repositório remoto:
+   ```bash
+   git push origin minha-feature
+   ```
+5. Abra um **Pull Request** no repositório original.
+
+## Aprendendo Next.js
+
+Para aprender mais sobre Next.js, confira os seguintes recursos:
+
+- [Documentação do Next.js](https://nextjs.org/docs) - aprenda sobre os recursos e a API do Next.js.
+- [Aprenda Next.js](https://nextjs.org/learn) - um tutorial interativo de Next.js.
+
+Você também pode dar uma olhada no [repositório do Next.js no GitHub](https://github.com/vercel/next.js/) - seu feedback e contribuições são bem-vindos!
+
+## Deploy na Vercel
+
+A maneira mais fácil de fazer o deploy do seu aplicativo Next.js é usando a [Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), dos criadores do Next.js.
+
+Confira nossa [documentação de deploy do Next.js](https://nextjs.org/docs/deployment) para mais detalhes.
+
+---
+
+### Estrutura do Projeto
+
+Aqui está a estrutura básica do projeto:
+
+```
+removedor-de-fundo/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── providers.tsx
+├── public/
+│   └── favicon.ico
+├── package.json
+├── README.md
+└── next.config.js
+```
+
+### Tecnologias Utilizadas
+
+- **Next.js**: Framework React para renderização do lado do servidor e geração de sites estáticos.
+- **Chakra UI**: Biblioteca de componentes UI para criar interfaces modernas e responsivas.
+- **React Icons**: Biblioteca de ícones para adicionar ícones de forma fácil.
+- **Framer Motion**: Biblioteca para animações e interações suaves.
+
+---
+
+### Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
