@@ -1,4 +1,4 @@
-# server.py
+# backend/server.py
 from flask import Flask, request, jsonify
 from rembg import remove
 import base64
