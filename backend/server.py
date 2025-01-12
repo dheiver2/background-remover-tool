@@ -1,11 +1,13 @@
 # backend/server.py
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from rembg import remove
 import base64
 from io import BytesIO
 from PIL import Image
 
 app = Flask(__name__)
+CORS(app)  # Habilita o CORS para todas as rotas
 
 @app.route('/remove-background', methods=['POST'])
 def remove_background():
